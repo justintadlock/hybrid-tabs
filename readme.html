@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>A guide to the Hybrid Tabs plugin</title>
+
+<link rel="stylesheet" href="readme.css" type="text/css" media="screen" />
+
+</head>
+<body>
+
+<h1 title="A guide to using the Hybrid Tabs plugin">A guide to Hybrid Tabs</h1>
+
+<p><em>Hybrid Tabs</em> is a plugin that allows you to have tabbed widgets with the <a href="http://themehybrid.com" title="Hybrid WordPress Theme">Hybrid WordPress theme</a>.  Currently, you can add up to 10 tabbed widgets to your theme on a single page without worry of a conflict between the tabs.</p>
+
+<p>I always love getting feedback and hearing ideas about things that should be added (without adding bloat to the plugin) in the <a href="http://themehybrid.com/community/forum/ideas" title="Theme Hybrid Ideas Forum">ideas forum</a>.  I know many of you have asked for this to be included in the core of <em>Hybrid</em>, but that is something that won't be happening.  Hence, the plugin.</p>
+
+<h2>How to install the plugin</h2>
+
+<ol>
+	<li>Uzip the <code>hybrid-tabs.zip</code> folder.</li>
+	<li>Upload the <code>hybrid-tabs</code> folder to your <code>/wp-content/plugins</code> directory.</li>
+	<li>In your WordPress dashboard, head over to the <em>Plugins</em> section.</li>
+	<li>Activate <em>Hybrid Tabs</em>.</li>
+</ol>
+
+<h2>Setting up your theme's CSS</h2>
+
+<p>The plugin was designed to work with multiple child themes, so it doesn't load any <acronym title="Cascading Style Sheets">CSS</acronym> by default.  You'll have to add the style rules to your theme.  I've created the styles for <em>Hybrid</em> and its child themes.  For child themes that support the tabs widget, there'll be a <code>tabs.css</code> file available within the download package.</p>
+
+<p>In order to use the available tabs <acronym title="Cascading Style Sheets">CSS</acronym> file, open your child theme's <code>style.css</code> file and find this line:</p>
+
+<pre><code>/* @import url('tabs.css'); */</code></pre>
+
+<p>Change it so that it looks exactly like this:</p>
+
+<pre><code>@import url('tabs.css');</code></pre>
+
+<p>Once that's done, save the file.  You're ready to go!</p>
+
+<h2>How to use the plugin</h2>
+
+<p>Once you've activated the plugin, go to the <em>Widgets</em> control panel and select a widget section that you'd like to add tabs to. </p>
+
+<p>You can add up to six tabs per tabbed widget, but not all themes and widget areas will accommodate that many, so you might not be able to add that many tabs without breaking the layout.  You'll just have to test it to see what works best for your design.  For each tab, you can choose pre-configured tabbed content (I'll cover <em>custom</em> content later) and input a custom title.</p>
+
+<h2>Available tabs</h2>
+
+<p>Most tabs are pre-configured to display a certain amount of content.  These are basic WordPress functions that you usually see used in normal widget areas.</p>
+
+<ul>
+	<li>Bookmarks/Links (individual link category lists).</li>
+	<li>Authors.</li>
+	<li>Calendar.</li>
+	<li>Categories.</li>
+	<li>Daily archives.</li>
+	<li>Meta.</li>
+	<li>Monthly archives.</li>
+	<li>Pages.</li>
+	<li>Recent posts (alphabetical).</li>
+	<li>Recent posts (chronological).</li>
+	<li>Random.</li>
+	<li>Tag/term clouds (based on all taxonomies).</li>
+	<li>Weekly archives.</li>
+	<li>Yearly archives.</li>
+	<li>Custom 1 - 6 (early beta users should move to the new system).</li>
+</ul>
+
+<p><em>Hybrid Tabs</em> has also been designed to work with several plugins (all need testing).  Each plugin will create one or more tabs that you can choose from.  I would also be happy to integrate other plugins, if possible, into the widget if you let me know.  Here's a list of the currently-supported plugins:</p>
+
+<ul>
+	<li><a href="http://wordpress.org/extend/plugins/configurable-tag-cloud-widget" title="Configurable Tag Cloud">Configurable Tag Cloud</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/events-calendar" title="Events Calendar">Events Calendar</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/flickr-rss" title="flickrRSS">flickrRSS</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/get-recent-comments" title="Get Recent Comments">Get Recent Comments</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/hot-friends" title="Hot Friends">Hot Friends</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/quote-this" title="Quote This">Quote This</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/sidebar-login" title="Sidebar Login">Sidebar Login</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-cumulus" title="WP Cumulus">WP Cumulus</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-postratings" title="WP Post Ratings">WP Post Ratings</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-postviews" title="WP Post Views">WP Post Views</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-stats" title="WP Stats">WP Stats</a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-wall" title="WP Wall">WP Wall</a></li>
+</ul>
+
+<h2 id="custom-tabs">Custom Tabs</h2>
+
+<p class="alert">Creating custom tabs is for <strong>advanced users only</strong>.  You need to be comfortable working with <acronym title="PHP Hypertext Preprocessor">PHP</acronym> to even attempt this.  I would say you need to be at least an intermediate-level <acronym title="PHP Hypertext Preprocessor">PHP</acronym> coder and have a workable knowledge of how the WordPress function works.</p>
+
+<p>If you've previously used the <em>Hybrid Tabs</em> in the earlier beta version, you'll love this new way of adding custom tabs.  It's much simpler.  I'll show you how to easily add two new tabs here.</p>
+
+<p>Open your theme's <code>functions.php</code> file and add this <acronym title="PHP Hypertext Preprocessor">PHP</acronym> code:</p>
+
+<pre><code>add_action( 'init', 'create_my_custom_tabs' );
+
+function create_my_custom_tabs() {
+	register_hybrid_tab( 'custom_1', array( 'label' => 'Hello World', 'callback' => 'hello_world_function' ) );
+
+	register_hybrid_tab( 'basketball', array( 'label' => 'Basketball Scores', 'callback' => 'basketball_scores' ) );
+}</code></pre>
+
+<p>Before we move on, let me explain each part of the <code>register_hybrid_tab()</code> function because it's pretty important.</p>
+
+<ul>
+	<li>The first part (<code>custom_1</code>, <code>basketball</code>), is a unique identifier for your custom tab.</li>
+	<li><code>label</code> is what you want to name/title your custom tab (can be changed in widget settings).</li>
+	<li><code>callback</code> is the function you'll use to display the content of your custom tab.</li>
+</ul>
+
+<p>Now, let's create the function that will show our first <code>custom_1</code> tab content.  Add this:</p>
+
+<pre><code>function hello_world_function() {
+	echo 'Hello World!';
+}</code></pre>
+
+<p>Pretty simple, right?  Now, let's show a list of basketball scores (our second tab).  Add this:</p>
+
+<pre><code>function basketball_scores() { ?>
+	&lt;ul>
+		&lt;li>Game 1 (W) 100 - 99&lt;/li>
+		&lt;li>Game 2 (L) 87 - 93&lt;/li>
+		&lt;li>Game 3 (W) 103 - 77&lt;/li>
+		&lt;li>Game 4 (W) 108 - 68&lt;/li>
+		&lt;li>Game 5 (L) 66 - 79&lt;/li>
+	&lt;/ul>
+&lt;?php }</code></pre>
+
+
+<p>You can do pretty much anything.  <em>The sky is the limit</em>, as they say.</p>
+
+<h2>Plugin support</h2>
+
+<p>I run a WordPress community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a>, which is where I fully support all of my WordPress projects, including plugins.  You can sign up for an account to get plugin support for a small yearly fee ($25 <acronym title="United States Dollars">USD</acronym> at the time of writing).</p>
+
+<p>I know.  I know.  You might not want to pay for support, but just consider it a donation to the project.  To continue making cool, <acronym title="GNU General Public License">GPL</acronym>-licensed plugins and having the time to support them, I must pay the bills.</p>
+
+<h2>Copyright &amp; license</h2>
+
+<p><em>Hybrid Tabs</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 (<acronym title="GNU General Public License">GPL</acronym>).</p>
+
+<p>This plugin is copyrighted to <a href="http://justintadlock.com" title="Justin Tadlock">Justin Tadlock</a>.</p>
+
+<p>2008&thinsp;&ndash;&thinsp;2009 &copy; Justin Tadlock</p>
+
+</body>
+</html>

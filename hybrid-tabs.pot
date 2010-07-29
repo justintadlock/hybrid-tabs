@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hybrid Tabs WordPress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-11 12:46+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Justin Tadlock <justin@justintadlock.com>\n"
+"Language-Team:  <justin@justintadlock.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:18
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: functions.php:18
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: functions.php:19
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: functions.php:19
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: functions.php:20
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: hybrid-tabs.php:97
+msgid "Authors"
+msgstr ""
+
+#: hybrid-tabs.php:101
+msgid "Authors' Stats"
+msgstr ""
+
+#: hybrid-tabs.php:104
+msgid "Calendar"
+msgstr ""
+
+#: hybrid-tabs.php:107
+msgid "Categories"
+msgstr ""
+
+#: hybrid-tabs.php:111
+msgid "Comments' Members Stats"
+msgstr ""
+
+#: hybrid-tabs.php:115
+msgid "Configurable Tag Cloud"
+msgstr ""
+
+#: hybrid-tabs.php:118
+msgid "Daily Archives"
+msgstr ""
+
+#: hybrid-tabs.php:122
+msgid "Events Calendar"
+msgstr ""
+
+#: hybrid-tabs.php:126
+msgid "flickrRSS"
+msgstr ""
+
+#: hybrid-tabs.php:130
+msgid "Highest Rated"
+msgstr ""
+
+#: hybrid-tabs.php:134
+msgid "Hot Friends"
+msgstr ""
+
+#: hybrid-tabs.php:138
+msgid "Least Viewed"
+msgstr ""
+
+#: hybrid-tabs.php:142
+msgid "Link Category Stats"
+msgstr ""
+
+#: hybrid-tabs.php:146
+msgid "Lowest Rated"
+msgstr ""
+
+#: hybrid-tabs.php:149
+msgid "Meta"
+msgstr ""
+
+#: hybrid-tabs.php:152
+msgid "Monthly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:156
+msgid "Most Commented"
+msgstr ""
+
+#: hybrid-tabs.php:160
+msgid "Most Rated"
+msgstr ""
+
+#: hybrid-tabs.php:164
+msgid "Most Viewed"
+msgstr ""
+
+#: hybrid-tabs.php:167
+msgid "Pages"
+msgstr ""
+
+#: hybrid-tabs.php:171
+msgid "Quote This: All"
+msgstr ""
+
+#: hybrid-tabs.php:172
+msgid "Quote This: Art"
+msgstr ""
+
+#: hybrid-tabs.php:173
+msgid "Quote This: Film"
+msgstr ""
+
+#: hybrid-tabs.php:174
+msgid "Quote This: Friendship"
+msgstr ""
+
+#: hybrid-tabs.php:175
+msgid "Quote This: Individual"
+msgstr ""
+
+#: hybrid-tabs.php:176
+msgid "Quote This: Life"
+msgstr ""
+
+#: hybrid-tabs.php:177
+msgid "Quote This: Literature"
+msgstr ""
+
+#: hybrid-tabs.php:182
+msgid "Post Category Stats"
+msgstr ""
+
+#: hybrid-tabs.php:186
+msgid "Post Tag Stats"
+msgstr ""
+
+#: hybrid-tabs.php:189
+msgid "Random"
+msgstr ""
+
+#: hybrid-tabs.php:193
+#: hybrid-tabs.php:197
+msgid "Recent Comments"
+msgstr ""
+
+#: hybrid-tabs.php:200
+msgid "Recent Posts (Alphabetical)"
+msgstr ""
+
+#: hybrid-tabs.php:203
+msgid "Recent Posts (Chronological)"
+msgstr ""
+
+#: hybrid-tabs.php:207
+msgid "Recent Trackbacks"
+msgstr ""
+
+#: hybrid-tabs.php:211
+msgid "Sidebar Login"
+msgstr ""
+
+#: hybrid-tabs.php:214
+msgid "Weekly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:218
+msgid "WP Cumulus"
+msgstr ""
+
+#: hybrid-tabs.php:222
+msgid "WP Wall"
+msgstr ""
+
+#: hybrid-tabs.php:225
+msgid "Yearly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:230
+#, php-format
+msgid "%1$s Cloud"
+msgstr ""
+
+#: hybrid-tabs.php:244
+msgid "Custom 1"
+msgstr ""
+
+#: hybrid-tabs.php:248
+msgid "Custom 2"
+msgstr ""
+
+#: hybrid-tabs.php:252
+msgid "Custom 3"
+msgstr ""
+
+#: hybrid-tabs.php:256
+msgid "Custom 4"
+msgstr ""
+
+#: hybrid-tabs.php:260
+msgid "Custom 5"
+msgstr ""
+
+#: hybrid-tabs.php:264
+msgid "Custom 6"
+msgstr ""
+
+#: tabs-widget.php:19
+msgid "A tabbed widget for the Hybrid WordPress theme."
+msgstr ""
+
+#: tabs-widget.php:21
+msgid "Tabs"
+msgstr ""
+
+#: tabs-widget.php:105
+msgid "Monthly"
+msgstr ""
+
+#: tabs-widget.php:105
+msgid "Yearly"
+msgstr ""
+
+#: tabs-widget.php:111
+msgid "Tab 1 Content:"
+msgstr ""
+
+#: tabs-widget.php:121
+msgid "Tab 2 Content:"
+msgstr ""
+
+#: tabs-widget.php:131
+msgid "Tab 3 Content:"
+msgstr ""
+
+#: tabs-widget.php:141
+msgid "Tab 4 Content:"
+msgstr ""
+
+#: tabs-widget.php:151
+msgid "Tab 5 Content:"
+msgstr ""
+
+#: tabs-widget.php:161
+msgid "Tab 6 Content:"
+msgstr ""
+
+#: tabs-widget.php:174
+msgid "Tab 1 Title:"
+msgstr ""
+
+#: tabs-widget.php:179
+msgid "Tab 2 Title:"
+msgstr ""
+
+#: tabs-widget.php:184
+msgid "Tab 3 Title:"
+msgstr ""
+
+#: tabs-widget.php:189
+msgid "Tab 4 Title:"
+msgstr ""
+
+#: tabs-widget.php:194
+msgid "Tab 5 Title:"
+msgstr ""
+
+#: tabs-widget.php:199
+msgid "Tab 6 Title:"
+msgstr ""
+
