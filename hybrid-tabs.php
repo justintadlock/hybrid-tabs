@@ -6,6 +6,8 @@
  * Version: 0.2
  * Author: Justin Tadlock
  * Author URI: http://justintadlock.com
+ * Text Domain: hybrid_tabs
+ * Domain Path: languages
  *
  * Hybrid Tabs is a tabbed widget that accompanies the Hybrid
  * WordPress theme framework.  Individual child themes that 
@@ -39,15 +41,22 @@
  * @package HybridTabs
  */
 
+/* PHP Hack to Get Plugin Headers in the .POT File */
+	$hybrid_tabs_plugin_header_translate = array(
+    	__( 'Creates a tabbed widget for the Hybrid WordPress theme.', 'hybrid_tabs' ),
+    	__( 'Justin Tadlock', 'hybrid_tabs' ),
+    	__( 'http://themehybrid.com/themes/hybrid/tabs', 'hybrid_tabs' ),
+    );
+
 /**
  * Yes, we're localizing the plugin.  This partly makes sure non-English
  * users can use it too.  To translate into your language use the
- * en_EN.po file as as guide.  Poedit is a good tool to for translating.
+ * languages/hybrid_tab.pot file as a template.  Poedit is a good tool to for translating.
  * @link http://poedit.net
  *
  * @since 0.1
  */
-load_plugin_textdomain( 'hybrid_tabs', false, '/hybrid-tabs' );
+load_plugin_textdomain( 'hybrid_tabs', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 /**
  * Make sure we get the correct directory.
