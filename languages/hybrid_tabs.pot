@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hybrid Tabs WordPress Plugin\n"
+"POT-Creation-Date: 2012-11-28 21:13+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FxB <fx@fxbenard.com>\n"
+"Language-Team: Justin Tadlock <justin@justintadlock.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_c;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop;_nx_noop:4c,1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:18
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: functions.php:18
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: functions.php:19
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: functions.php:19
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: functions.php:20
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: hybrid-tabs.php:46
+msgid "Creates a tabbed widget for the Hybrid WordPress theme."
+msgstr ""
+
+#: hybrid-tabs.php:47
+msgid "Justin Tadlock"
+msgstr ""
+
+#: hybrid-tabs.php:48
+msgid "http://themehybrid.com/themes/hybrid/tabs"
+msgstr ""
+
+#: hybrid-tabs.php:106
+msgid "Authors"
+msgstr ""
+
+#: hybrid-tabs.php:110
+msgid "Authors' Stats"
+msgstr ""
+
+#: hybrid-tabs.php:113
+msgid "Calendar"
+msgstr ""
+
+#: hybrid-tabs.php:116
+msgid "Categories"
+msgstr ""
+
+#: hybrid-tabs.php:120
+msgid "Comments' Members Stats"
+msgstr ""
+
+#: hybrid-tabs.php:124
+msgid "Configurable Tag Cloud"
+msgstr ""
+
+#: hybrid-tabs.php:127
+msgid "Daily Archives"
+msgstr ""
+
+#: hybrid-tabs.php:131
+msgid "Events Calendar"
+msgstr ""
+
+#: hybrid-tabs.php:135
+msgid "flickrRSS"
+msgstr ""
+
+#: hybrid-tabs.php:139
+msgid "Highest Rated"
+msgstr ""
+
+#: hybrid-tabs.php:143
+msgid "Hot Friends"
+msgstr ""
+
+#: hybrid-tabs.php:147
+msgid "Least Viewed"
+msgstr ""
+
+#: hybrid-tabs.php:151
+msgid "Link Category Stats"
+msgstr ""
+
+#: hybrid-tabs.php:155
+msgid "Lowest Rated"
+msgstr ""
+
+#: hybrid-tabs.php:158
+msgid "Meta"
+msgstr ""
+
+#: hybrid-tabs.php:161
+msgid "Monthly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:165
+msgid "Most Commented"
+msgstr ""
+
+#: hybrid-tabs.php:169
+msgid "Most Rated"
+msgstr ""
+
+#: hybrid-tabs.php:173
+msgid "Most Viewed"
+msgstr ""
+
+#: hybrid-tabs.php:176
+msgid "Pages"
+msgstr ""
+
+#: hybrid-tabs.php:180
+msgid "Quote This: All"
+msgstr ""
+
+#: hybrid-tabs.php:181
+msgid "Quote This: Art"
+msgstr ""
+
+#: hybrid-tabs.php:182
+msgid "Quote This: Film"
+msgstr ""
+
+#: hybrid-tabs.php:183
+msgid "Quote This: Friendship"
+msgstr ""
+
+#: hybrid-tabs.php:184
+msgid "Quote This: Individual"
+msgstr ""
+
+#: hybrid-tabs.php:185
+msgid "Quote This: Life"
+msgstr ""
+
+#: hybrid-tabs.php:186
+msgid "Quote This: Literature"
+msgstr ""
+
+#: hybrid-tabs.php:191
+msgid "Post Category Stats"
+msgstr ""
+
+#: hybrid-tabs.php:195
+msgid "Post Tag Stats"
+msgstr ""
+
+#: hybrid-tabs.php:198
+msgid "Random"
+msgstr ""
+
+#: hybrid-tabs.php:202 hybrid-tabs.php:206
+msgid "Recent Comments"
+msgstr ""
+
+#: hybrid-tabs.php:209
+msgid "Recent Posts (Alphabetical)"
+msgstr ""
+
+#: hybrid-tabs.php:212
+msgid "Recent Posts (Chronological)"
+msgstr ""
+
+#: hybrid-tabs.php:216
+msgid "Recent Trackbacks"
+msgstr ""
+
+#: hybrid-tabs.php:220
+msgid "Sidebar Login"
+msgstr ""
+
+#: hybrid-tabs.php:223
+msgid "Weekly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:227
+msgid "WP Cumulus"
+msgstr ""
+
+#: hybrid-tabs.php:231
+msgid "WP Wall"
+msgstr ""
+
+#: hybrid-tabs.php:234
+msgid "Yearly Archives"
+msgstr ""
+
+#: hybrid-tabs.php:239
+#, php-format
+msgid "%1$s Cloud"
+msgstr ""
+
+#: hybrid-tabs.php:253
+msgid "Custom 1"
+msgstr ""
+
+#: hybrid-tabs.php:257
+msgid "Custom 2"
+msgstr ""
+
+#: hybrid-tabs.php:261
+msgid "Custom 3"
+msgstr ""
+
+#: hybrid-tabs.php:265
+msgid "Custom 4"
+msgstr ""
+
+#: hybrid-tabs.php:269
+msgid "Custom 5"
+msgstr ""
+
+#: hybrid-tabs.php:273
+msgid "Custom 6"
+msgstr ""
+
+#: tabs-widget.php:19
+msgid "A tabbed widget for the Hybrid WordPress theme."
+msgstr ""
+
+#: tabs-widget.php:21
+msgid "Tabs"
+msgstr ""
+
+#: tabs-widget.php:105
+msgid "Monthly"
+msgstr ""
+
+#: tabs-widget.php:105
+msgid "Yearly"
+msgstr ""
+
+#: tabs-widget.php:111
+msgid "Tab 1 Content:"
+msgstr ""
+
+#: tabs-widget.php:121
+msgid "Tab 2 Content:"
+msgstr ""
+
+#: tabs-widget.php:131
+msgid "Tab 3 Content:"
+msgstr ""
+
+#: tabs-widget.php:141
+msgid "Tab 4 Content:"
+msgstr ""
+
+#: tabs-widget.php:151
+msgid "Tab 5 Content:"
+msgstr ""
+
+#: tabs-widget.php:161
+msgid "Tab 6 Content:"
+msgstr ""
+
+#: tabs-widget.php:174
+msgid "Tab 1 Title:"
+msgstr ""
+
+#: tabs-widget.php:179
+msgid "Tab 2 Title:"
+msgstr ""
+
+#: tabs-widget.php:184
+msgid "Tab 3 Title:"
+msgstr ""
+
+#: tabs-widget.php:189
+msgid "Tab 4 Title:"
+msgstr ""
+
+#: tabs-widget.php:194
+msgid "Tab 5 Title:"
+msgstr ""
+
+#: tabs-widget.php:199
+msgid "Tab 6 Title:"
+msgstr ""
