@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Hybrid Tabs
- * Plugin URI: http://themehybrid.com/themes/hybrid/tabs
+ * Plugin URI: http://themehybrid.com/plugins/hybrid-tabs
  * Description: Creates a tabbed widget for the Hybrid WordPress theme.
- * Version: 0.2
+ * Version: 0.2.1-alpha
  * Author: Justin Tadlock
  * Author URI: http://justintadlock.com
  *
@@ -26,8 +26,8 @@
  * @link http://wordpress.org/extend/plugins/wp-stats
  * @link http://wordpress.org/extend/plugins/wp-wall
  *
- * @copyright 2008 - 2009
- * @version 0.2
+ * @copyright 2008 - 2013
+ * @version 0.2.1
  * @author Justin Tadlock
  * @link http://themehybrid.com/themes/hybrid/tabs
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
