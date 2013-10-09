@@ -1,52 +1,21 @@
 === Hybrid Tabs ===
+
 Contributors: greenshady
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3687060
+Donate link: http://themehybrid.com/donate
 Tags: widget, jquery, javascript
 Requires at least: 2.8
-Tested up to: 2.8
-Stable tag: 0.2
+Tested up to: 3.7
+Stable tag: 0.2.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a tabbed widget to the Hybrid theme framework that can be used in multiple widget areas.
+Adds a tabbed widget to the Hybrid theme that can be used in multiple widget areas.
 
 == Description ==
 
-*Hybrid Tabs* is a widget created for use with the <a href="http://themehybrid.com/themes/hybrid" title="Hybrid WordPress theme framework">Hybrid theme</a>.  It was created because of the demand of users to have an easy-to-use tabbed widget for their sites.  I didn't want to add something like this to the theme, so we settled on a compromise: a plugin/widget.
+This plugin has been retired.  I've replaced it with a much better plugin that can work with any theme.  Check out [Whistles](http://wordpress.org/plugins/hybrid-tabs).
 
-**This plugin is for WordPress 2.8+ only.**
-
-**Default tabs:**
-
-* Bookmarks/Links (individual link category lists).
-* Authors.
-* Calendar.
-* Categories.
-* Daily archives.
-* Meta.
-* Monthly archives.
-* Pages.
-* Recent posts (alphabetical).
-* Recent posts (chronological).
-* Random.
-* Tag/term clouds (based on all taxonomies).
-* Weekly archives.
-* Yearly archives.
-
-**Adds tabs for these plugins:**
-
-* <a href="http://wordpress.org/extend/plugins/configurable-tag-cloud-widget" title="Configurable Tag Cloud">Configurable Tag Cloud</a>
-* <a href="http://wordpress.org/extend/plugins/events-calendar" title="Events Calendar">Events Calendar</a>
-* <a href="http://wordpress.org/extend/plugins/flickr-rss" title="flickrRSS">flickrRSS</a>
-* <a href="http://wordpress.org/extend/plugins/get-recent-comments" title="Get Recent Comments">Get Recent Comments</a>
-* <a href="http://wordpress.org/extend/plugins/hot-friends" title="Hot Friends">Hot Friends</a>
-* <a href="http://wordpress.org/extend/plugins/quote-this" title="Quote This">Quote This</a>
-* <a href="http://wordpress.org/extend/plugins/sidebar-login" title="Sidebar Login">Sidebar Login</a>
-* <a href="http://wordpress.org/extend/plugins/wp-cumulus" title="WP Cumulus">WP Cumulus</a>
-* <a href="http://wordpress.org/extend/plugins/wp-postratings" title="WP Post Ratings">WP Post Ratings</a>
-* <a href="http://wordpress.org/extend/plugins/wp-postviews" title="WP Post Views">WP Post Views</a>
-* <a href="http://wordpress.org/extend/plugins/wp-stats" title="WP Stats">WP Stats</a>
-* <a href="http://wordpress.org/extend/plugins/wp-wall" title="WP Wall">WP Wall</a>
-
-Full instructions for use can be found in the plugin's `readme.html` file, which is included with the plugin download.
+Thank you to all the supporters of this plugin over the years.
 
 == Installation ==
 
