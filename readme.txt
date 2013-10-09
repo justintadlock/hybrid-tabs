@@ -13,9 +13,13 @@ Adds a tabbed widget to the Hybrid theme that can be used in multiple widget are
 
 == Description ==
 
-This plugin has been retired.  I've replaced it with a much better plugin that can work with any theme.  Check out [Whistles](http://wordpress.org/plugins/hybrid-tabs).
+This plugin has been retired.  I've replaced it with a much better plugin that can work with any theme.  Check out [Whistles](http://wordpress.org/plugins/whistles), which allows you to create tabs, toggles, and accordions.
 
 Thank you to all the supporters of this plugin over the years.
+
+### Forks
+
+If you'd like to fork this plugin or even take over the project altogether, let me know.  I'm done with it.
 
 == Installation ==
 
